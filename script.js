@@ -604,7 +604,6 @@ const calcDaysPassed = (date1, date2) => Math.abs(date2 - date1) / (1000 * 60 * 
 const days1 = calcDaysPassed(new Date(2037, 3, 4), new Date(2037, 3, 14));
 console.log(days1);
 
-*/
 
 
 // Formatting with numbers
@@ -653,3 +652,5 @@ setInterval(function () {
   const myPersonalTime = `${hour}:${minute}:${seconds}`
   // console.log(myPersonalTime);
 }, 1000);
+
+*/
